@@ -5,7 +5,7 @@ volatile bool mailboxFlag;
 void setup() {
   // put your setup code here, to run once:
   CircuitPlayground.begin();
-  attachInterrupt(digitalPinToInterrupt(9), ISR_button, FALLING);
+  attachInterrupt(digitalPinToInterrupt(9), ISR_button, CHANGE);
 }
 
 void loop() {
