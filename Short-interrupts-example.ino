@@ -12,7 +12,7 @@ void loop() {
   // put your main code here, to run repeatedly:
 
   if(mailboxFlag) {
-    CircuitPlayground.setPixelColor(9, 0, 255, 128);
+    CircuitPlayground.setPixelColor(6, 0, 255, 128);
 
     // Set to false again, until the next change
     mailboxFlag = false;
